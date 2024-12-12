@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../demoHTML"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Tp3"
+	}
+}

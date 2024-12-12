@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(127, 255, 189);
+
+}
+
+/* Style général pour la barre de menu */
+.menu {
+    background-color: rgb(127, 255, 189);
+    border: 1px solid black;
+}
+
+/* Style général pour la liste (ul) */
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu li {
+    flex: 1;
+    text-align: center;
+
+}
+
+/* Style pour chaque lien <a> dans la navigation */
+.menu a {
+    color: #000;
+    font-size: 1rem;
+    display: block;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+/*style pour le changement de couleur des icones*/
+.menu a:hover {
+    background-color: #b2d8b2;
+}
+
+h1 {
+    font-family: 'Cairo';
+    font-size: 70px;
+}
+
+p {
+    font-family: 'Cairo';
+    font-size: 25px;
+}
+
+.p2 {
+    border: solid black;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 25%;
+    font-size: 25px;
+
+}
+
+.conteneur {
+    position: relative;
+    bottom: 70px;
+    left: 1400px;
+    border: 2px solid black;
+    border-radius: 20%;
+
+}
+
+.p3 {
+    border: solid black;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 25%;
+    font-size: 20px;
+    background-color: #6adb88;
+}
+
+.p4 {
+    border: solid black;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 25%;
+    font-size: 20px;
+    background-color: #6adb88;
+
+}
+
+.conteneur2 {
+    position: relative;
+}
+
+.timgadimage {
+    position: relative;
+    left: 1100px;
+    bottom: 250px;
+
+
+}
+.timgadtexte{
+    left: 1100px;
+    bottom: 250px;
+    position: relative;
+}
+.monumentimage{
+    position: relative;
+  left: 575px;
+  bottom: 510px;
+}
+
+.monumenttexte{
+    position: relative;
+    left: 575px;
+  bottom: 510px
+}
+
+.footer-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px; /* Hauteur de la barre */
+    background-color: #d7f8ce; <
+   
+}
+
+/* Section gauche */
+.left-section {
+    width: 50%;
+    height: 100%;
+    background-color: #008000; 
+    box-sizing: border-box; 
+}
+
+/* Section centrale avec l'icône */
+.center-icon {
+    font-size: 4px; 
+    color: red; 
+    width: 40px;  
+    height: auto; 
+    border-radius: 50%;
+   
+}
+
+/* Section droite */
+.right-section {
+    width: 60%;
+    height: 100%;
+    background-color: white; 
+    
+}
+
+.titreapropos{
+    border: solid, black;
+    text-align: center;
+}
+
+.pbienvenue{
+    background-color: #6adb88;
+    border: solid black;
+    border-radius: 11%;
+}
+.ptipaza{
+    position: relative;
+left: 1250px;
+font-size: 30px;
+ 
+}
+
+.imagetipaza{
+ position: relative;
+    left: 1200px;
+    bottom: 30px;
+    border: solid black;
+    border-radius: 20%;
+}
+
+.pmission{
+    background-color: #6adb88;
+    border: solid black;
+    border-radius: 11%;
+}
+
+.poran{
+    position: relative;
+    left: 190px;
+    top: 25px;
+    
+}
+
+.imageoran{
+    border: solid black;
+    border-radius: 50%;
+    width: 35%; 
+    
+}
+.pnotresite{
+    background-color: #6adb88;
+    border: solid black;
+    border-radius: 11%;
+}
+
