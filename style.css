@@ -246,6 +246,64 @@ p {
     bottom: 150px;
     width: 1400px;
 }
+.titrehistoire{
+    border: solid, black;
+}
+.textecolonisation{
+    width: 1000px;
+    background-color: #6adb88;
+    border: 2px solid black;
+    border-radius: 3%;
+    font-family:'Times New Roman', Times, serif
+}
+.imagerevolution{
+    float: right;
+    width: 200px;
+    height: auto;
+    position: relative;
+    top: 49px;
+    border-radius: 31%;
+}
+.prisonniers{
+    float: right;
+    width: 200px;
+    height: auto;
+    border-radius: 31%;
+}
+.gloireanosmartyrs{
+    float: right;
+    width: 200px;
+    height: auto;
+    border-radius: 31%;
+    position: relative;
+    top: 175px;
+    left: 200px;
+}   
+.delindigenat{
+    float: right;
+    width: 200px;
+    height: auto;
+    border-radius: 31%;
+    position: relative;
+    top: 625px;
+    left: 400px;
+}
+.listecolonisation2{
+    width: 960px;
+    
+    background-color: #6adb88;
+    border: 2px solid black;
+    border-radius: 3%;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif
+    
+    
+}
+.codeindigenat{
+    position: relative;
+    top: 275px;
+    float: right;
+}
 
 .ppourtoute {
     border: 2px solid black;
@@ -260,4 +318,79 @@ p {
     position: relative;
     bottom: 250px;
     font-size: 30px;
+}
+.Boutton{
+    position: relative;
+    top: 20px;
+    right: 500px;
+}
+.textetourisme{
+    width: 1500px;
+    border: 2px solid black;
+    border-radius: 3%;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif
+}
+.Tassili{
+    background-color: #6adb88;
+    border: 2px solid white;
+    font-size: 25px;
+    width: 600px;
+}
+.Casbah{
+    background-color: #6adb88;
+    border: 2px solid white;
+    font-size: 25px;
+    width: 600px;
+    position: relative;
+    bottom: 270px;
+
+}
+.Ghardaia{
+    background-color: #6adb88;
+    border: 2px solid white;
+    font-size: 25px;
+    width: 600px;
+}
+.videoTassili{
+    position: relative;
+    left: 950px;
+    bottom: 320px;
+}
+.TitreCasbah{
+    position: relative;
+    bottom: 300px;
+}
+.imgCasbah{
+    width: 400px;
+    position: relative;
+    bottom: 600px;
+    left: 960px;
+    border-radius: 11%;
+}
+.titreimgCasbah{
+    position: relative;
+    left: 1075px;
+    bottom: 300px;
+}
+.titreGhardaia{
+    position: relative;
+    bottom: 600px;
+
+}
+.Ghardaia{
+    position: relative;
+    bottom: 600px;
+}
+.imgGhardia{
+    width: 400px;
+    border-radius: 11%;
+    position: relative;
+    left: 960px;
+    bottom: 900px;
+}
+.titreimgGhardia{
+    position: relative;
+    bottom: 940px;
+    left: 1095px;
 }

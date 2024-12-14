@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <nav class="menu">  
+        <ul>
+            <li class="menu"><a href="Acceuil.html"><i class="fa fa-home"></i>Acceuil</a></li>
+            <li class="menu"><a href="À propos.html"> <i class="fa fa-info-circle"></i>À propos</a></li>
+            <li class="menu"><a href="contact.html"><i class="fa fa-user"></i>Contact</a></li>
+            <li class="menu"><a href="Histoire.html"> <i class="fa fa-book"></i>Histoire</a></li>
+            <li class="menu"><a href="Tourisme.html"><i class="fa fa-map"></i>Tourisme</a></li>
+        </ul>
+    </nav>
+    <title>Histoire.html</title>
+   
+</head>
+<body>
+    <img src="images/imagerevolution.png" alt="" class="imagerevolution">
+    <h1 class="titrehistoire">La colonisation française</h1>
+    <img src="images/prisonniers.png" alt="" class="prisonniers">
+    <img src="images/gloireanosmartyrs.jpg" alt="" class="gloireanosmartyrs">
+
+    <img src="images/delindigenat.jpg" alt="" class="delindigenat">
+    <p class="textecolonisation">La colonisation française en Algérie débute en 1830, lorsque la France envahit Alger, sous prétexte de régler un différend diplomatique avec le Dey d'Alger. 
+
+        Progressivement, la France prend le contrôle du territoire algérien, malgré une forte résistance des populations locales, notamment menée par l'émir Abd el-Kader.
+        
+        L’Algérie devient officiellement une colonie française en 1848, intégrée comme départements français. Les colons européens (pieds-noirs) s’installent en masse, accaparant les terres et ressources, tandis que la population indigène est marginalisée, soumise à des lois discriminatoires (Code de l'indigénat). 
+        
+        Les Algériens sont privés de droits politiques, économiques et sociaux, ce qui alimente le mécontentement et les mouvements nationalistes.Après plus d'un siècle de domination, marquée par des répressions et des inégalités, la guerre d’indépendance éclate en 1954, menée par le Front de Libération Nationale (FLN).
+        
+        Cette guerre, qui dure jusqu’en 1962, se termine avec les accords d'Évian et l’indépendance de l’Algérie le 5 juillet 1962.
+        Le passage de la colonisation a laissé des traces profondes sur le pays, tant au niveau social, économique, qu’identitaire.</p>
+
+        
+            
+            <ul class="listecolonisation2">
+                <li>Colonisation qui a duré 132 ans.</li>
+                <li>Plus de 1 million de martyrs de coté Algerien.</li>
+                <li>Utilisation de méthode de torture par l’armée française.</li>
+                <li>Code de l’indigènat pour séparer les européens des arabes.</li>
+            </ul>
+            <p class="codeindigenat"><strong>Code de l'indigénat</strong></p>
+            <p><strong>Vidéo sur la colonisation</strong></p>
+            <video id="video1" width="660" height="auto" controls>
+                <source src="images/Pourquoi la guerre d'Algérie a éclaté.mp4" type="video/mp4">
+                </video>
+                <button class="Boutton"  onclick="faireGrossir()">Grossir</button>
+                <button class="Boutton" onclick= "faireDiminuer()">Diminuer</button>
+                <button class="Boutton" onclick= "faireNormal()">Normal</button>
+                <button class="Boutton" onclick="faireDemarrer()">Demarrer/Pause</button> 
+                
+                <p><strong>L'hymne nationale d'Algérie</strong></p>
+                <p>
+                    <audio controls>
+                    <source src="images/Algeria National Anthem [ ezmp3.cc ].mp3" type="audio/mpeg">
+                    </audio>
+                    </p>
+                <script src="Bouttons.js"></script>
+</body>
+</html>
